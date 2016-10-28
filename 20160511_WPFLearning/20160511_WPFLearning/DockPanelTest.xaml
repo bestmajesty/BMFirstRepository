@@ -1,0 +1,19 @@
+﻿<Page x:Class="_20160511_WPFLearning.DockPanelTest"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:_20160511_WPFLearning"
+      mc:Ignorable="d" 
+      d:DesignHeight="30" d:DesignWidth="30"
+      Title="DockPanelTest">
+
+    <DockPanel>
+        <Button DockPanel.Dock="Top">上</Button>
+        <Button>
+            <DockPanel.Dock>Left</DockPanel.Dock>
+            左
+        </Button>
+        <Button>占有</Button>
+    </DockPanel>
+</Page>
